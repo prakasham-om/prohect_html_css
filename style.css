@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+ width: 100%;
+ background-color: rgb(251, 251, 252);
+
+}
+
+.image{
+height: 45px;
+width: 65px;
+filter: contrast(1);
+margin-top: -15px;
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    color: wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.card{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    border-radius: 12px;
+    text-align: center;
+   justify-content: center;
+   margin-left: 60px;
+}
+.container{
+
+    padding: 30px;
+    display: flex;
+
+}
+.headnav{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+h3{
+    margin-left:20px ;
+}
+.search_box{
+   background-color: rgb(227, 235, 241);
+    margin-left:10px;
+    height: 40px;
+    width: 600px; 
+    border-radius: 25px ;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+.search_box1{
+    height: 40px;
+    width: 600px; 
+    background-color:wheat;
+    border-radius: 25px;
+    border: 0;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius:50% ;
+    background-color: red;
+    margin-left: -20px;
+}
+
+.indices{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px;
+}
+.card1{
+    height: 80px;
+    width: 330px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px 2px rgb(84, 82, 82);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card2{
+    height: 45px;
+    width: 90px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: .5px .5px .5px .5px rgb(84, 82, 82);
+    border:none;
+    stop-opacity: initial;
+    
+    
+}
+.card2:hover{
+    background-color: rgb(142, 149, 154);
+}
+.grp-btn{
+    
+    padding: 20px;
+    
+}
+.indicaes_name{
+    margin:20px;
+}
+.price{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.indices_price{
+    margin-left:20px ;
+}
+.timeframe{
+    margin: 40px;
+    
+    
+}
+.btn-fday{
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+}
+.btn-fday:hover{
+    cursor: pointer;
+    color: rgb(17, 123, 123);
+}
+#defl{
+    color: rgb(21, 122, 156);
+}
